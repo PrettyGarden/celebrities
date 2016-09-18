@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* -- common -- */
+.title-2 {
+    padding: 0 0 40px;
+    font-size: 34px;
+    line-height: 1.2em;
+    font-weight: lighter;
+    color: #fffce0;
+    text-transform: uppercase;
+}
+.title-3 {
+    color: #f8e853;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height:24px;
+}
+.text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height:24px;
+    color: #cad4d7;
+}
+
+.full-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    text-aling: center;
+}
+.full-img  span {
+    float: right;
+    margin: 10px;
+    color: #eee;
+}
+.full-img  span:hover {
+    color: #fff;
+}
+.full-img  .img {
+    vertical-align: middle;
+}
+.full-img  img {
+    margin: 0 auto;
+}
+/* -- public end -- */
+
+.breadcrumb {
+    background-color: transparent;
+    border-top: 1px solid #5b707a;
+    border-bottom: 1px solid #5b707a;
+    margin-top: -30px;
+    padding: 10px 0;
+}
+.breadcrumb a { color: #bbbaba;}
+.breadcrumb a:hover { color: #f8e853;}
+.breadcrumb .active { color: #f8e853;}
+
+body { background-color: #41545b;}
+.section-2 { margin-bottom: 30px;}
+#box figure{ background-color: #68787c;}
+#box figure .content { padding: 20px 20px;}
+#box figure .img {
+    position: relative;
+    display: inline-block;
+}
+#box figure img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#box figure span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all .4s ease;
+}
+#box figure .img:hover span{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#box figure span:hover:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin: -62px 0 0 -62px;
+    width: 125px;
+    height: 125px;
+    background: url(../img/magnify-alt.png) 50% 50% no-repeat;
+    content: "";
+}
+#box figure .more {
+    margin-top: 20px;
+    position: relative;
+    background-color: #f8e853;
+    text-align: center;
+    display: inline-block;
+}
+#box figure .more a {
+    position: relative;
+    padding: 13px 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #363f45;
+    z-index: 3;
+}
+#box figure .more .slide-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    display: inline-block;
+    background-color: #75a6b3;
+    z-index: 1;
+    transition: all .7s ease;
+}
+
+#pager { text-align: center;}

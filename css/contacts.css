@@ -1,0 +1,60 @@
+@charset "utf-8";
+body { background-color: #41545b;}
+.breadcrumb {
+    background-color: transparent;
+    border-top: 1px solid #5b707a;
+    border-bottom: 1px solid #5b707a;
+    margin-top: -30px;
+    padding: 10px 0;
+}
+.breadcrumb a { color: #bbbaba;}
+.breadcrumb a:hover { color: #f8e853;}
+.breadcrumb .active { color: #f8e853;}
+.title-2 {
+    padding: 0 0 40px;
+    font-size: 34px;
+    line-height: 1.2em;
+    font-weight: lighter;
+    color: #fffce0;
+    text-transform: uppercase;
+}
+.text-1 {
+    color: #75a6b3;
+    font-size: 14px;
+    line-height: 20px;
+}
+.text-2 {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height:24px;
+}
+#part-1 {
+    margin-bottom: 80px;
+    color: #cad4d7;
+}
+#part-1 address {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 20px 0 0;
+}
+#part-1 .contact {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+
+}
+#part-1 .contact span { color: #75a6b3;}
+#part-1 .contact span:hover { color: #f8e853;}
+
+#message { height: 200px;}
+.myform .btn {
+    background-color: #f8e853;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+.myform .btn:hover {
+    background-color: #75a6b3;
+    color: #fff;
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* -- reset -- */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select { margin: 0; padding: 0; }
+em { font-style: normal; }
+li { list-style: none; }
+a, a:hover { text-decoration: none; }
+img { border: none; vertical-align: top; }
+table { border-collapse: collapse; }
+textarea { resize: none; overflow: auto; }
+input, textarea { outline: none; }
+/* -- reset end -- */
+
+/* -- public -- */
+body {
+    background: url("../img/bg.jpg") top left repeat;
+    font-size: 16px;
+    color: #fff;
+}
+.container .section-1 { padding: 0 20px;}
+#logo { padding: 50px 0 40px 0;}
+#logo img { vertical-align: middle;}
+
+#return-top {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+#return-top a {
+    background-color: #547076;
+    text-align: center;
+    padding: 10px 15px;
+    display: inline-block;
+}
+#return-top a:hover { background-color: #75a6b3;}
+#return-top i { color: #fff;}
+
+.menu-fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+}
+#menu .navbar { padding: 0 15px;}
+#menu-big {
+    background-color: #3c4b51;
+    text-transform: uppercase;
+    padding: 0 0;
+}
+
+#menu li + li { border-left: 1px solid #252e33;}
+#menu a {
+    font-weight: bold;
+    color: #fff;
+    padding: 2em 0;
+}
+#menu a:hover {
+    background: #f8e853;
+    color: #3c4b51;
+ }
+#menu .active {
+    background: #f8e853;
+    color: #3c4b51;}
+#menu-mini select{
+    width: 100%;
+    height: 2em;
+    color: rgba(0,0,0,0.4);
+}
+
+#foot-content {
+    border-top: 1px solid #5b707a;
+    padding: 50px 0 40px 0;
+}
+#foot-content h4 {
+    color: #fffce0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 34px 0 28px 0;
+}
+#foot-content li {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+#foot-content a {
+    color: #cad4d7;
+    transition: all .3s ease;
+}
+#foot-content a:hover { color: #f8e853;}
+#foot-content .fa {
+    margin-right: 0.625em;
+    color: #f8e853;
+}
+#foot-content .contact {
+    color: #bbbaba;
+    margin-bottom: 0.625em;
+    vertical-align: middle;
+}
+#foot-content .fa { font-size: 1.5em;}
+#foot-content .contact span { display: inline-block;}
+#foot-content .footer-text { margin-top: 80px;}
+#foot-content .footer-text span {
+    color: #bbbaba;
+    font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+    #logo { padding: 30px 0 30px 0;}
+}
+/* -- public end -- */
