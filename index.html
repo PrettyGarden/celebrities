@@ -1,57 +1,384 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Celebrities by PrettyGarden</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Celebrities</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/PrettyGarden/celebrities" class="btn">View on GitHub</a>
-      <a href="https://github.com/PrettyGarden/celebrities/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/PrettyGarden/celebrities/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrities</title>
+    <link rel="icon" href="img/i.ico"/>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <!-- 导航条 -->
+    <nav class="navbar">
+        <div class="container">
+            <div id="logo" class="row section-1">
+                <div class="section-1"><a href="#"><img src="img/logo.png" class="img-responsive" alt="Celebrities" title="Elementum velit"/></a></div>
+            </div>
+            <div id="menu" class="row section-1">
+                <div class="navbar">
+                    <ul id="menu-big" class="nav nav-justified hidden-xs col-sm-12">
+                        <li><a href="javascript:" class="active">Home</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/fashion.html">Fashion</a></li>
+                        <li><a href="pages/all.html">All Celebrities</a></li>
+                        <li><a href="pages/blog.html">Blog</a></li>
+                        <li><a href="pages/contacts.html">Contacts</a></li>
+                    </ul>
+                    <div id="menu-mini" class="nav nav-justified visible-xs col-xs-12">
+                        <select id="choose">
+                            <option value="0">Navigate to ...</option>
+                            <option value="1">Home</option>
+                            <option value="2">About</option>
+                            <option value="3">Fashion</option>
+                            <option value="4">All Celebrities</option>
+                            <option value="5">Blog</option>
+                            <option value="6">Contacts</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="menu-h" style="display: none;"></div>
+            </div>
+            <div id="return-top">
+                <a href="#logo"><i class="fa fa-angle-up fa-2x"></i></a>
+            </div>
+        </div>
+    </nav>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <!-- 正文 -->
+    <article>
+        <div class="container">
+            <!-- 正文part-1 -->
+            <div class="row section-1">
+                <div id="part-1" class="col-xs-12">
+                    <h1>They konw how</h1>
+                    <p>to stun on the red carpet!</p>
+                    <div>
+                        <a href="#" class="btn">more info</a>
+                    </div>
+                </div>
+            </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+            <!-- 正文part-2 -->
+            <div id="part-2" class="row section-1">
+                <div style="opacity: 0;" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 service">
+                    <div class="service-box">
+                        <div class="cicle">
+                            <i class="fa fa-male fa-3x"></i>
+                        </div>
+                        <div class="service-body">
+                            <h2 class="title">
+                                <a href="#">
+                                    famous<br />
+                                    persons
+                                </a>
+                            </h2>
+                            <h5 class="sub-title">dolore ipsum</h5>
+                            <div class="service-box-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#"> more info</a>
+                            <span class="slide-2"></span>
+                        </div>
+                        <div class="slide-1"></div>
+                    </div>
+                </div>
+                <div style="opacity: 0;" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 service">
+                    <div class="service-box">
+                        <div class="cicle">
+                            <i class="fa fa-glass fa-3x"></i>
+                        </div>
+                        <div class="service-body">
+                            <h2 class="title">
+                                <a href="#">
+                                    featured<br />
+                                    models
+                                </a>
+                            </h2>
+                            <h5 class="sub-title">dolore ipsum</h5>
+                            <div class="service-box-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#"> more info</a>
+                            <span class="slide-2"></span>
+                        </div>
+                        <div class="slide-1"></div>
+                    </div>
+                </div>
+                <div style="opacity: 0;" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 service">
+                    <div class="service-box">
+                        <div class="cicle">
+                            <i class="fa fa-heart fa-3x"></i>
+                        </div>
+                        <div class="service-body">
+                            <h2 class="title">
+                                <a href="#">
+                                    famous sport<br />
+                                    stars
+                                </a>
+                            </h2>
+                            <h5 class="sub-title">dolore ipsum</h5>
+                            <div class="service-box-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#"> more info</a>
+                            <span class="slide-2"></span>
+                        </div>
+                        <div class="slide-1"></div>
+                    </div>
+                </div>
+                <div style="opacity: 0;" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 service">
+                    <div class="service-box">
+                        <div class="cicle">
+                            <i class="fa fa-microphone fa-3x"></i>
+                        </div>
+                        <div class="service-body">
+                            <h2 class="title">
+                                <a href="#">
+                                    popular<br />
+                                    singers
+                                </a>
+                            </h2>
+                            <h5 class="sub-title">dolore ipsum</h5>
+                            <div class="service-box-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.
+                            </div>
+                        </div>
+                        <div class="more">
+                            <a href="#"> more info</a>
+                            <span class="slide-2"></span>
+                        </div>
+                        <div class="slide-1"></div>
+                    </div>
+                </div>
+            </div>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+            <!-- 正文part-3 -->
+            <div class="row section-1">
+                <div id="part-3">
+                    <div style="opacity: 0;" class="col-xs-12 col-sm-4 awards">
+                        <h2 class="title-2">
+                            awards  <br />
+                            & honors
+                        </h2>
+                        <h3 class="title-3">
+                            <img src="img/page1_img1.jpg" width="170" height="116" alt=""/>
+                            <a href="#">
+                                Lorem sit <br />
+                                dolore ipsum
+                            </a>
+                        </h3>
+                        <p class="text">Dolor nunc vule putateulr ips dol consec.Donec sem ertet laciniate ultricie upie.</p>
+                        <p class="text">Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan.</p>
+                    </div>
+                    <div style="opacity: 0;" class="col-xs-12 col-sm-4 awards">
+                        <h2 class="title-2">
+                            Media  <br />
+                            & Materials
+                        </h2>
+                        <h3 class="title-3">
+                            <a href="#">Lorem sit commete dolore ipsum</a>
+                        </h3>
+                        <p class="text">Nunc vule putateulr ips dol consec.Donec sem ertet lacini ate ultricie upie. disse comete dolo lectus. fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore condime</p>
+                        <p class="text">Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan.</p>
+                    </div>
+                    <div style="opacity: 0;" class="col-xs-12 col-sm-4 awards">
+                        <h2 class="title-2">
+                            Why <br />
+                            choose us
+                        </h2>
+                        <h3 class="title-3">
+                            Mes cuml dia sed ineniasinge dolor commete ipsum comnetus.
+                        </h3>
+                        <p class="text">Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan dolore.</p>
+                        <div class="more">
+                            <a href="#"> more info</a>
+                            <span class="slide-2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+            <!-- 正文part-4 -->
+            <div class="row section-1">
+                <div id="part-4">
+                    <div class="col-xs-12 col-sm-8">
+                        <div style="opacity: 0;" class="section-2">
+                            <h2 class="title-2">CELEBRITY STYLES</h2>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <ul>
+                                        <li class="title-4"><i class="fa fa-angle-right"></i><a href="#">LOREM IPSUM DOLOR SIT AMET.</a></li>
+                                        <li class="title-4"><i class="fa fa-angle-right"></i><a href="#">CONSECTETUR ADIPISCING ELIT.</a></li>
+                                        <li class="title-4"><i class="fa fa-angle-right"></i><a href="#">IN EUISMOD EST QUIS ARCU.</a></li>
+                                        <li class="title-4"><i class="fa fa-angle-right"></i><a href="#">VENENATIS IMPERDIET ETIAM IN.</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <h3 class="title-3"><a href="#">PHASELLUS FRINGILLA</a></h3>
+                                    <div class="post-author sub-title-3">
+                                        <span>Posted by Admin, </span>
+                                        <time>14/02/2013 - 8:26</time>
+                                    </div>
+                                    <p class="text">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="opacity: 0;" class="section-2">
+                            <h2 class="title-2">SEXY STARS AND GLAMOROUS WOMEN</h2>
+                            <h3 class="title-3">
+                                <img src="img/page1_img2.jpg" width="170" height="116" alt=""/>
+                                <a href="#">
+                                    MES CUML DIA SED INENIASINGE DOLOR COMMETE IPSUM COMNETUS.
+                                </a>
+                            </h3>
+                            <p class="text">
+                                Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan dolorecondime netus lullam utlacus adipiscing ipsum molestie euismod estibulum vel libero ipsum sit amet.
+                            </p>
+                            <p class="text">
+                                Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan dolorecondime netus lullam utlacus adipiscing ipsum molestie euismod estibulum vel libero ipsum sit amet sollicitudin ante. Aenean imperdiet aliquet hendrerit. Nunc interdum ullamcorper lectet pellentesque enim interdum at. Suspendisse malesuada dignissim est, a facilisis ligula rutrum sed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h2 style="opacity: 0;" class="title-2 news">CELEBRITY NEWS</h2>
+                        <div style="opacity: 0;" class="section-3 row">
+                            <div class="date col-xs-2">
+                                <span class="day">27</span>
+                                <span class="month">May</span>
+                            </div>
+                            <div class="content col-xs-10">
+                                <h3 class="title-3"><a href="#">DONEC FACILISI ULET</a></h3>
+                                <h4 class="sub-title-3">Lorem Ipsum dolore</h4>
+                                <p class="text">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis,...</p>
+                            </div>
+                        </div>
+                        <div style="opacity: 0;" class="section-3 row">
+                            <div class="date col-xs-2">
+                                <span class="day">14</span>
+                                <span class="month">Mar</span>
+                            </div>
+                            <div class="content col-xs-10">
+                                <h3 class="title-3"><a href="#">DONEC FACILISI ULET</a></h3>
+                                <h4 class="sub-title-3">Lorem Ipsum dolore</h4>
+                                <p class="text">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis,...</p>
+                            </div>
+                        </div>
+                        <div style="opacity: 0;" class="section-3 row">
+                            <div class="date col-xs-2">
+                                <span class="day">05</span>
+                                <span class="month">Mar</span>
+                            </div>
+                            <div class="content col-xs-10">
+                                <h3 class="title-3"><a href="#">DONEC FACILISI ULET</a></h3>
+                                <h4 class="sub-title-3">Lorem Ipsum dolore</h4>
+                                <p class="text">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis,...</p>
+                            </div>
+                        </div>
+                        <div style="opacity: 0;" class="section-3 row">
+                            <div class="date col-xs-2">
+                                <span class="day">14</span>
+                                <span class="month">Feb</span>
+                            </div>
+                            <div class="content col-xs-10">
+                                <h3 class="title-3"><a href="#">DONEC FACILISI ULET</a></h3>
+                                <h4 class="sub-title-3">Lorem Ipsum dolore</h4>
+                                <p class="text">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis,...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="section-1">
+                <div class="row" id="foot-content">
+                    <div class="col-sm-3">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">All Celebrities</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>FOR MEMBERS</h4>
+                        <ul>
+                            <li><a href="#">FORUMS</a></li>
+                            <li><a href="#">PROMOTIONS</a></li>
+                            <li><a href="#">SIGN IN</a></li>
+                            <li><a href="#">NEWS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>FOLLOW US</h4>
+                        <ul>
+                            <li><a href="#" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i>Twitter</a></li>
+                            <li><a href="#" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a></li>
+                            <li><a href="#" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i>RSS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>OUR location</h4>
+                        <ul>
+                            <li class="contact">
+                                <i class="fa fa-home pull-left"></i>
+                                <address>
+                                    <span>9870 St Vincent Place,<br />Glasgow, DC 45 Fr 45.</span>
+                                </address>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                            </li>
+                            <li class="contact">
+                                <i class="fa fa-phone-square pull-left"></i>
+                                <span>
+                                    Telephone: +1 800 603 6035 <br />FAX: +1 800 889 9898
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-text col-xs-12">
+                        <p>Celebrities <span>© 2016 | Privacy Policy</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/PrettyGarden/celebrities">Celebrities</a> is maintained by <a href="https://github.com/PrettyGarden">PrettyGarden</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        /*  小屏页面跳转  */
+        var oSelect = document.getElementById('choose');
+        oSelect.onchange = function() {
+            if (oSelect.value == 2) {
+                window.location.href = 'pages/about.html';
+            } else if (oSelect.value == 3) {
+                window.location.href = 'pages/fashion.html';
+            } else if (oSelect.value == 4) {
+                window.location.href = 'pages/all.html';
+            } else if (oSelect.value == 5) {
+                window.location.href = 'pages/blog.html';
+            } else if (oSelect.value == 6) {
+                window.location.href = 'pages/contacts.html';
+            }
+        }
+    </script>
+</body>
 </html>
