@@ -1,4 +1,5 @@
     var navbarH = $('#menu').find('.navbar').height();
+    var navbarW = $('#menu').find('.navbar').width();
     $(window).scroll(function() {
         /* 鼠标滚动，导航变化 */
         var menuT = $('#menu').offset().top;
@@ -25,7 +26,7 @@
                 });
             }
             if ($('#menu-mini')) {
-                $('#menu').find('.navbar').addClass('navbar-fixed-top menu-fixed');
+                $('#menu').find('.navbar').addClass('navbar-fixed-top menu-fixed').width(navbarW);
             }
         } else {
             if ($('#menu-big')) {
